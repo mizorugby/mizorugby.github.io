@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://github.com/mizorugby/mizorugby.github.io/blob/main/bike.jpg?raw=true"), url("https://github.com/mizorugby/mizorugby.github.io/blob/main/majan.jpg?raw=true");
-    background-repeat: no-repeat, no-repeat;
-    background-position: right 10% top 3%, right 10% top 25%;
+    background-image: url("https://github.com/mizorugby/mizorugby.github.io/blob/main/bike.jpg?raw=true"), url("https://github.com/mizorugby/mizorugby.github.io/blob/main/majan.jpg?raw=true"), url("wani.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right 10% top 3%, right 10% top 20%, right 42% top -1%;
 }
 
 
@@ -32,6 +32,12 @@ body {
 
 li {
     text-indent: 2rem;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    list-style-position: outside;
 }
 
 .class1 {
