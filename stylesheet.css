@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://github.com/mizorugby/mizorugby.github.io/blob/main/bike.jpg?raw=true/bike.jpg"), url("https://github.com/mizorugby/mizorugby.github.io/blob/main/majan.jpg?raw=true/majan.jpg");
+    background-image: url("https://github.com/mizorugby/mizorugby.github.io/blob/main/bike.jpg?raw=true"), url("https://github.com/mizorugby/mizorugby.github.io/blob/main/majan.jpg?raw=true");
     background-repeat: no-repeat, no-repeat;
     background-position: right 10% top 3%, right 10% top 25%;
 }
