@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("bike.jpg"), url("majan.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 10% top 3%, right 10% top 25%;
 }
+
 
 #header {
     box-sizing: border-box;
@@ -18,7 +22,7 @@ body {
 #sub {
     box-sizing: border-box;
     top: 50px;
-    height: 100%;
+    height: 28%;
     width: 220px;
     position: fixed;
     overflow: auto;
@@ -28,4 +32,8 @@ body {
 
 li {
     text-indent: 2rem;
+}
+
+.class1 {
+    text-align: right;
 }
